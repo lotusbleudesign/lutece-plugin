@@ -1,0 +1,16 @@
+<@row>
+    <div class="col-md-12">
+        <@messages infos=infos />
+        <h4>#i18n{example.detail_project.title}</h4>
+        <div class="panel panel-primary">
+            <div class="panel-heading">${project.name}</div>
+            <div class="panel-body">
+               <div class="list-group">
+                   <p class="list-group-item">#i18n{example.detail_project.labelId} : ${project.id}</p>
+                   <p class="list-group-item">#i18n{example.detail_project.labelDescription} : ${project.description}</p>
+                   <p class="list-group-item">#i18n{example.detail_project.labelImageUrl} : ${project.imageurl}</p>
+                   <p class="list-group-item"><img src="${project.imageurl}" class="img-responsive"></p>
+               </div>
+        </div>
+    </div>
+</@row>

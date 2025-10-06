@@ -1,0 +1,8 @@
+fr/paris/lutece/plugins/example/business/AbstractFilterDao.class
+fr/paris/lutece/plugins/example/business/ProjectHome.class
+fr/paris/lutece/plugins/example/business/IProjectDAO.class
+fr/paris/lutece/plugins/example/web/AbstractJspBean.class
+fr/paris/lutece/plugins/example/web/ProjectXPage.class
+fr/paris/lutece/plugins/example/web/ProjectJspBean.class
+fr/paris/lutece/plugins/example/business/ProjectDAO.class
+fr/paris/lutece/plugins/example/business/Project.class

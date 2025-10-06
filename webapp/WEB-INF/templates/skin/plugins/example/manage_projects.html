@@ -1,0 +1,17 @@
+<@row>
+    <messages info="info" />
+    <h3>#i18n{example.manage_projects.title}</h3>
+    <#list project_list as project >
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <a href="jsp/site/Portal.jsp?page=project&view=detailsProject&id=${project.id}">
+                <img src="${project.imageurl}">
+                <div class="caption">
+                    <h4>${project.name}</h4>
+                </div>
+                </a>
+            </div>
+        </div>
+    </#list>
+</@row>
+
