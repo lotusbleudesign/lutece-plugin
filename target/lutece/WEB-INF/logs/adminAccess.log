@@ -1,4 +1,4 @@
-2025-10-06 08:18:24 INFO  [http-nio-8080-exec-10]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/plugins/example/ManageProjects.jsp?plugin_name=example&items_per_page=50
- 2025-10-06 08:18:30 INFO  [http-nio-8080-exec-1]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/role/ManagePageRole.jsp?plugin_name=
- 2025-10-06 08:18:36 INFO  [http-nio-8080-exec-3]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/plugins/example/ManageProjects.jsp?plugin_name=example
+2025-10-06 17:37:45 INFO  [http-nio-8080-exec-6]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/plugins/example/ManageProjects.jsp?view=modifyProject&id=1
+ 2025-10-06 17:37:59 INFO  [http-nio-8080-exec-8]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/plugins/example/ManageProjects.jsp
+ 2025-10-06 17:37:59 INFO  [http-nio-8080-exec-9]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 172.24.0.1, url: http://localhost:8080/example/jsp/admin/plugins/example/ManageProjects.jsp?view=modifyProject&id=1
  

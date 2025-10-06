@@ -6,8 +6,7 @@
 				<@messages errors=errors />
 				<@input type="hidden" id="id" name="id" value="${project.id}"/>
 				<@input type="hidden" value="${token}" name="token" />
-				<@input type="hidden" name="page" value="project" /> 
-
+				<@input type="hidden" name="page" value="project" />
 				<@formGroup labelFor='name' labelKey='#i18n{example.project.labelName}' mandatory=true>
 					<@input type="text" id="name" name="name" value="${project.name!''}"  maxlength=50 tabIndex="1" />
 				</@formGroup>
@@ -17,7 +16,6 @@
 				<@formGroup labelFor='imageurl' labelKey='#i18n{example.project.labelImageurl}' mandatory=true>
 					<@input type="text" id="imageurl" name="imageurl" value="${project.imageurl!''}"  maxlength=255 tabIndex="3" />
 				</@formGroup>
-
 				<@formGroup>
          			<@button name='action_modifyProject' type='submit' tabIndex='3' title='#i18n{portal.util.labelModify}' buttonIcon='plus' />
           			<@button name='view_manageProjects' type='submit' title='#i18n{portal.util.labelCancel}' buttonIcon='close' color='btn-secondary' cancel=true />

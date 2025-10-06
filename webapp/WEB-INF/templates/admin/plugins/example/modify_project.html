@@ -19,6 +19,9 @@
 			<@formGroup labelFor='imageurl' labelKey='#i18n{example.project.labelImageurl}' mandatory=true>
 				<@input type='text' id='imageurl' name='imageurl'  maxlength=255 value=project.imageurl!'' tabIndex='2' />
 			</@formGroup>
+			<@formGroup labelFor='cost' labelKey='#i18n{example.detail_project.labelCost}' helpKey='#i18n{example.detail_project.labelCost.help}' mandatory=true>
+			<@input type="text" id="cost" name="cost" value="${project.cost!''}" />
+</@formGroup>
         <@actionButtons button1Name="action_modifyProject" button2Name="view_manageProject"/>
     </@tform>
 	</@boxBody>

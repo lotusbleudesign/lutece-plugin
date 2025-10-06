@@ -242,10 +242,10 @@ public class ProjectJspBean extends AbstractJspBean <Integer, Project>
         }
 
         // Alice Specific constraint : cost must be a multiple of 5
-//        if( !_project.isCostValid()){
-//            addError(MESSAGE_INVALID_COST);
-//            return redirectView( request, VIEW_CREATE_PROJECT);
-//        }
+        if( !_project.isCostValid()){
+            addError(MESSAGE_INVALID_COST);
+            return redirectView( request, VIEW_CREATE_PROJECT);
+        }
 
         ProjectHome.create( _project );
         addInfo( INFO_PROJECT_CREATED, getLocale(  ) );
@@ -342,10 +342,11 @@ public class ProjectJspBean extends AbstractJspBean <Integer, Project>
         }
 
         // Alice Specific Constraint
-//        if( !_project.isCostValid()){
-//            addError(MESSAGE_INVALID_COST);
-//            return redirect( request , VIEW_MODIFY_PROJECT, PARAMETER_ID_PROJECT, _project.getId());
-//        }
+        if( !_project.isCostValid()){
+            System.out.println("=====> ERREUR "+ MESSAGE_INVALID_COST);
+            addError(MESSAGE_INVALID_COST);
+            return redirect( request , VIEW_MODIFY_PROJECT, PARAMETER_ID_PROJECT, _project.getId());
+        }
 
         ProjectHome.update( _project );
         addInfo( INFO_PROJECT_UPDATED, getLocale(  ) );

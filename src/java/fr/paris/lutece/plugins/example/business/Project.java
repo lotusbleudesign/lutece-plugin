@@ -62,9 +62,9 @@ public class Project implements Serializable
     private String _strImageurl;
 
     // ALICE
-//    @Min(value = 5, message="#i18n{example.validation.project.cost.range}" )
-//    @Max(value = 25, message="#i18n{example.validation.project.cost.range}" )
-//    private int _nCost;
+    @Min(value = 5, message="#i18n{example.validation.project.cost.range}" )
+    @Max(value = 25, message="#i18n{example.validation.project.cost.range}" )
+    private int _nCost;
 
     /**
      * Returns the Id
@@ -141,15 +141,15 @@ public class Project implements Serializable
     }
 
     // ALICE
-//    public int getCost() {
-//        return _nCost;
-//    }
-//
-//    public void setCost(int nCost) {
-//        this._nCost = nCost;
-//    }
-//
-//    public boolean isCostValid(){
-//        return (_nCost % 5 == 0);
-//    }
+    public int getCost() {
+        return _nCost;
+    }
+
+    public void setCost(int nCost) {
+        this._nCost = nCost;
+    }
+
+    public boolean isCostValid(){
+        return (_nCost % 5 == 0);
+    }
 }
